@@ -11,6 +11,7 @@ class Queue extends AbstractEntity
     public $vhost;
     public $status;
 
+
     public $node;
     public $policy;
     public $active_consumers;
@@ -48,6 +49,7 @@ class Queue extends AbstractEntity
     public $disk_reads;
     public $disk_writes;
     public $exclusive;
+    public $garbage_collection;
 
     public function getBindings()
     {
