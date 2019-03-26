@@ -1,15 +1,9 @@
 {
-    "name": "scroller123/rabbitmq-management-client",
+    "name": "qwep-ru/rabbitmq-management-client",
     "type": "library",
-    "description": "RabbitMQ Management Plugin API Client",
+    "description": "Fork of scroller123/rabbitmq-management-client",
     "keywords": ["api", "rabbitmq", "management"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Romain Neutron",
-            "email": "imprec@gmail.com"
-        }
-    ],
     "require": {
         "doctrine/common": ">=2.0",
         "guzzle/guzzle": "~3.0"
